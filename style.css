@@ -1,0 +1,15 @@
+body{
+ font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 85%;
+    background-color: aqua;
+    margin: 0 auto;
+}

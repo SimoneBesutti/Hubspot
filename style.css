@@ -30,8 +30,11 @@ li{
     background-color: rgb(0, 162, 188);
     background-image: url("background.svg");
     background-repeat:  no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: bottom right;
 }
+
+
 
 #sezione80{
     width: 90%;
@@ -40,13 +43,14 @@ li{
 
 h1{
     color: white;
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: 700;
 }
 
 .width40 {
     width: 40%;
-    height: 500px;
-    padding: 20px 0;
+    padding: 60px 0;
+    min-height: 700px;
 }
 
 .testo1{
@@ -55,7 +59,13 @@ h1{
 }
 
 button{
-   padding-top: 30px; 
-   
+    
+   text-align: center;
+   line-height: 20px;
+   font-size: 20px;
 
+}
+
+button:hover{
+    background-color: greenyellow;
 }
